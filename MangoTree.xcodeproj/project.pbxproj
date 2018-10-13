@@ -41,6 +41,7 @@
 		FA313D8521729731007863C3 /* Circle-2-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = FA313D6A21729731007863C3 /* Circle-2-30x30.png */; };
 		FA313D8621729731007863C3 /* Rectangle-4-40x20.png in Resources */ = {isa = PBXBuildFile; fileRef = FA313D6B21729731007863C3 /* Rectangle-4-40x20.png */; };
 		FA313D8721729731007863C3 /* Rectangle-4-120x20.png in Resources */ = {isa = PBXBuildFile; fileRef = FA313D6C21729731007863C3 /* Rectangle-4-120x20.png */; };
+		FA313D892172ABD5007863C3 /* Mango.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA313D882172ABD5007863C3 /* Mango.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		FA313D6A21729731007863C3 /* Circle-2-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle-2-30x30.png"; sourceTree = "<group>"; };
 		FA313D6B21729731007863C3 /* Rectangle-4-40x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle-4-40x20.png"; sourceTree = "<group>"; };
 		FA313D6C21729731007863C3 /* Rectangle-4-120x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle-4-120x20.png"; sourceTree = "<group>"; };
+		FA313D882172ABD5007863C3 /* Mango.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mango.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				FA313D04217295B9007863C3 /* GameScene.sks */,
 				FA313D08217295B9007863C3 /* GameScene.swift */,
 				FA313D0A217295B9007863C3 /* GameViewController.swift */,
+				FA313D882172ABD5007863C3 /* Mango.swift */,
 				FA313D0C217295B9007863C3 /* Main.storyboard */,
 				FA313D0F217295BC007863C3 /* Assets.xcassets */,
 				FA313D11217295BC007863C3 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA313D892172ABD5007863C3 /* Mango.swift in Sources */,
 				FA313D09217295B9007863C3 /* GameScene.swift in Sources */,
 				FA313D0B217295B9007863C3 /* GameViewController.swift in Sources */,
 				FA313D03217295B9007863C3 /* AppDelegate.swift in Sources */,
