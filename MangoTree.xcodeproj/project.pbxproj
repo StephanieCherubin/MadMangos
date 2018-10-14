@@ -27,7 +27,7 @@
 		FA313D7721729731007863C3 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FA313D5C21729731007863C3 /* background.png */; };
 		FA313D7821729731007863C3 /* Rectangle-3-120x20.png in Resources */ = {isa = PBXBuildFile; fileRef = FA313D5D21729731007863C3 /* Rectangle-3-120x20.png */; };
 		FA313D7921729731007863C3 /* Rectangle-3-40x20.png in Resources */ = {isa = PBXBuildFile; fileRef = FA313D5E21729731007863C3 /* Rectangle-3-40x20.png */; };
-		FA313D7A21729731007863C3 /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = FA313D5F21729731007863C3 /* Orange.png */; };
+		FA313D7A21729731007863C3 /* Mango.png in Resources */ = {isa = PBXBuildFile; fileRef = FA313D5F21729731007863C3 /* Mango.png */; };
 		FA313D7B21729731007863C3 /* CloudThree.png in Resources */ = {isa = PBXBuildFile; fileRef = FA313D6021729731007863C3 /* CloudThree.png */; };
 		FA313D7C21729731007863C3 /* Rectangle-2-60x30.png in Resources */ = {isa = PBXBuildFile; fileRef = FA313D6121729731007863C3 /* Rectangle-2-60x30.png */; };
 		FA313D7D21729731007863C3 /* Rectangle-2-60x20.png in Resources */ = {isa = PBXBuildFile; fileRef = FA313D6221729731007863C3 /* Rectangle-2-60x20.png */; };
@@ -67,7 +67,7 @@
 		FA313D5C21729731007863C3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		FA313D5D21729731007863C3 /* Rectangle-3-120x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle-3-120x20.png"; sourceTree = "<group>"; };
 		FA313D5E21729731007863C3 /* Rectangle-3-40x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle-3-40x20.png"; sourceTree = "<group>"; };
-		FA313D5F21729731007863C3 /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
+		FA313D5F21729731007863C3 /* Mango.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mango.png; sourceTree = "<group>"; };
 		FA313D6021729731007863C3 /* CloudThree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloudThree.png; sourceTree = "<group>"; };
 		FA313D6121729731007863C3 /* Rectangle-2-60x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle-2-60x30.png"; sourceTree = "<group>"; };
 		FA313D6221729731007863C3 /* Rectangle-2-60x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle-2-60x20.png"; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 				FA313D5C21729731007863C3 /* background.png */,
 				FA313D5D21729731007863C3 /* Rectangle-3-120x20.png */,
 				FA313D5E21729731007863C3 /* Rectangle-3-40x20.png */,
-				FA313D5F21729731007863C3 /* Orange.png */,
+				FA313D5F21729731007863C3 /* Mango.png */,
 				FA313D6021729731007863C3 /* CloudThree.png */,
 				FA313D6121729731007863C3 /* Rectangle-2-60x30.png */,
 				FA313D6221729731007863C3 /* Rectangle-2-60x20.png */,
@@ -234,7 +234,7 @@
 				FA313D7021729731007863C3 /* Rectangle-2-120x20.png in Resources */,
 				FA313D7E21729731007863C3 /* Rectangle-1-20x20.png in Resources */,
 				FA313D8521729731007863C3 /* Circle-2-30x30.png in Resources */,
-				FA313D7A21729731007863C3 /* Orange.png in Resources */,
+				FA313D7A21729731007863C3 /* Mango.png in Resources */,
 				FA313D8321729731007863C3 /* Rectangle-1-120x20.png in Resources */,
 				FA313D10217295BC007863C3 /* Assets.xcassets in Resources */,
 				FA313D13217295BC007863C3 /* LaunchScreen.storyboard in Resources */,

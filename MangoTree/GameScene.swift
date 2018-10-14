@@ -1,6 +1,4 @@
 import SpriteKit
-import UIKit
-import Foundation
 
 class GameScene: SKScene {
     var mangoTree: SKSpriteNode!
