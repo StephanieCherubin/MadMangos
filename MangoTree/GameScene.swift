@@ -4,10 +4,16 @@ class GameScene: SKScene {
     var mangoTree: SKSpriteNode!
     var mango: Mango?
     var touchStart: CGPoint = .zero
+    var shapeNode = SKShapeNode()
     
     override func didMove(to view: SKView) {
         //Connect Game Objects
         mangoTree = childNode(withName: "tree") as! SKSpriteNode
+        // Configure shapeNode
+        shapeNode.lineWidth = 20
+        shapeNode.lineCap = .round
+        shapeNode.strokeColor = UIColor(white: 1, alpha: 0.3)
+        addChild(shapeNode)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -34,6 +40,12 @@ class GameScene: SKScene {
         
         // Update the position of the Mango to the current location
         mango?.position = location
+        
+        // Draw the firing vector
+        let path = UIBezierPath()
+        path.move(to: touchStart)
+        path.addLine(to: location)
+        shapeNode.path = path.cgPath
     }
     
         func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -49,6 +61,9 @@ class GameScene: SKScene {
         // Set the Mango dynamic again and apply the vector as an impulse
         mango?.physicsBody?.isDynamic = true
         mango?.physicsBody?.applyImpulse(vector)
+            
+        // Remove the path from shapeNode
+        shapeNode.path = nil
     }
         
     }
