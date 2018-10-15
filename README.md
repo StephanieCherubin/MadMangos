@@ -7,3 +7,6 @@ Knock down the most blocks and drop the skull to win!
 Level 1
 
 ![mangotree](https://user-images.githubusercontent.com/26418542/46931813-964d6780-d001-11e8-9d8f-d4b3169778fb.gif)
+
+
+![mangotree](https://user-images.githubusercontent.com/26418542/46932532-05788b00-d005-11e8-94f3-43ea290a6f83.gif)
